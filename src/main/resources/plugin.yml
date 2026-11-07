@@ -1,0 +1,17 @@
+name: AnyEnchant
+version: 1.0.0
+main: dev.anyenchant.AnyEnchant
+api-version: '1.21'
+description: Any enchant on any item, anvil support, and timed random enchant rolls.
+commands:
+  anyenchant:
+    description: Put any enchantment at any level on the item in your hand.
+    usage: /anyenchant roll OR /anyenchant <enchantment> <level>
+    permission: anyenchant.command
+permissions:
+  anyenchant.anvil:
+    description: Allows using enchanted books on any item in an anvil.
+    default: true
+  anyenchant.command:
+    description: Allows /anyenchant.
+    default: op

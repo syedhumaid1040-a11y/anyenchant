@@ -1,0 +1,12 @@
+# Minutes between automatic random enchant rolls on each player's held item
+roll-interval-minutes: 15
+
+# Tell the player what they rolled
+announce: true
+
+# Allow binding/vanishing curses in the roll pool
+allow-curses: false
+
+# On death, weapons drop plain and each enchant drops as its own book.
+# Set to true to do this for every enchanted item (armor, tools...) instead of only weapons.
+death-split-any-item: false
